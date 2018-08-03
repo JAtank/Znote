@@ -26,9 +26,10 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      'SRC': path.resolve(__dirname,'../src'),
-      'ASSETS':path.resolve(__dirname,'../src/assets'),
-      'SCSS':path.resolve(__dirname,'../src/scss')
+      'SRC': path.resolve(__dirname, '../src'),
+      'ASSETS': path.resolve(__dirname, '../src/assets'),
+      'SCSS': path.resolve(__dirname, '../src/scss'),
+      'VIEWS': path.resolve(__dirname, '../src/views'),
     }
   },
   module: {
